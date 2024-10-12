@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>	
+        <title>Login Page</title>	
+        <style>		
+        body {			
+            font-family: Arial, sans-serif;			
+            background:url("ras.jpeg");		
+            }				
+            .login-form {			
+                width: 300px;			
+                margin: 50px auto;			
+                padding: 20px;			
+                border: 1px solid #ccc;			
+                border-radius: 20px;			
+                box-shadow: 0 0 10px rgba(252, 244, 244, 0.805);
+                margin-top: 100px;
+                background-color: rgba(0,0,0,0.5)	
+                }				
+                h2 {			
+                    text-align: center;
+			        margin-bottom: 20px;
+                    color: whitesmoke;		
+                    }				
+                    label {			
+                        display: block;
+			            margin-bottom: 10px;
+			            color: whitesmoke;		
+                        }				
+                        input[type="email"], input[type="password"] {			
+                            width: 90%;
+			                height: 20px;
+			                margin-bottom: 20px;
+			                padding: 10px;
+			                border: 1px solid #ccc;
+                            border-radius: 50px;		
+                            }				
+                            button[type="submit"] {			
+                                background-color:blue;			
+                                color: #fff;			
+                                padding: 10px 20px;			
+                                border: none;			
+                                border-radius: 50px;			
+                                cursor: pointer;		
+                                }				
+                                .forgot-password {			
+                                    text-align: center;
+			                        margin-top: 20px;
+			                        color: white;		
+                                    }				
+                                    .create-account {			
+                                        text-align: center;			
+                                        margin-top: 20px;
+                                        color: #fff;		
+                                        }
+                                        .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}	
+                                        </style>
+                                        </head>
+                                        <body>	
+                                            <div class="login-form">		
+                                                <h2>Login</h2>		
+                                                <form>			
+                                                    <label for="email">Email:</label>			
+                                                    <input type="email" id="email" name="email" placeholder="Enter your email" required>						
+                                                    <label for="password">Password:</label>			
+                                                    <input type="password" id="password" name="password" placeholder="Enter your password" required>						
+                                                    <button type="submit">Login</button>		
+                                                </form>		
+                                                <div class="forgot-password">			
+                                                    <a href="forgotpassword.html">Forgot Password?</a>		
+                                                </div>		<div class="create-account">			
+                                                    Don't have an account? <a href="register.html">Create New Account</a>		
+                                                </div>	
+                                            </div>
+                                        </body>
+                                        </html>
